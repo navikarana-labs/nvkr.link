@@ -1,0 +1,10 @@
+RewriteEngine On
+
+# Temporary redirects while destinations are being set up; change 302 to 301 once stable.
+RewriteRule ^$ https://navikarana.io/ [R=302,L]
+RewriteRule ^ananta/?$ https://navikarana.io/projects/001-ananta/ [R=302,L]
+RewriteRule ^001/?$ https://navikarana.io/projects/001-ananta/ [R=302,L]
+RewriteRule ^github/?$ https://github.com/navikarana-labs [R=302,L]
+RewriteRule ^contact/?$ https://navikarana.io/contact/ [R=302,L]
+
+ErrorDocument 404 /404.html
