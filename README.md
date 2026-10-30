@@ -1,8 +1,8 @@
 # nvkr.link
 
-Short, shareable links for Navikarana Labs.
+Short, memorable links for Navikarana Labs
 
-## Local Preview
+### Local Preview
 
 Plain HTML and CSS with Apache redirects configured in `.htaccess`.
 

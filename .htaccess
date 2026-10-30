@@ -10,5 +10,6 @@ RewriteRule ^projects/?$ https://navikarana.io/projects/ [R=302,L]
 RewriteRule ^about/?$ https://navikarana.io/about/ [R=302,L]
 RewriteRule ^writing/?$ https://loke.sh/tags/navikarana-labs/ [R=302,L]
 RewriteRule ^newsletter/?$ https://loke.sh/blog/newsletter/ [R=302,L]
+RewriteRule ^ideas/?$ https://forms.gle/YA8YdPBvDRLEQEbV8 [R=302,L]
 
 ErrorDocument 404 /404.html
